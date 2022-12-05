@@ -61,7 +61,9 @@ function App(){
                                 )} target="blank" className="btn btn-warning">
                                     <i className="fa fa-twitter"></i>
                                 </a>
-                                <a href="" className="btn btn-primary">
+                                <a href={"https://tumblr.com/intent/tweet?hashtags=quotes&related=freecodecamp&text"+
+                                encodeURIComponent('"'+randomQuote.text +'"'+randomQuote.author
+                                )} className="btn btn-primary" target="blank">
                                     <i className="fa fa-tumblr"></i>
                                 </a>
                             </div>
